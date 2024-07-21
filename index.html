@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="shortcut icon" href="images (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color: rgba(78, 140, 255, 0.805); padding: 10px; border-radius: 6px;">Movie App</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="now-playing">Now Playing</a></li>
+                <li><a href="#" id="popular">Popular</a></li>
+                <li><a href="#" id="top-rated">Top Rated</a></li>
+                <li><a href="#" id="trending">Trending</a></li>
+                <li><a href="#" id="upcoming">Upcoming</a></li>
+                <li><a href="#" id="contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="movies" class="movies-container"></div>
+        <div id="contact-form" style="display:none;">
+            <h2 style="background-color: rgb(78, 140, 255); padding: 10px; border-radius: 6px;">Contact Us</h2>
+            <form style="background-color: cornflowerblue; padding: 20px; border-radius: 6px;">
+                <label for="name">Enter Name:</label>
+                <input type="text" id="name" name="name" required style="border-radius: 10px;">
+                <label for="email">Enter Email:</label>
+                <input type="email" id="email" name="email" required style="border-radius: 10px;">
+                <label for="phone">Enter phone:</label>
+                <input type="tel" id="phone" name="phone" required style="border-radius: 10px;">
+                <label for="Age">Age:</label>
+                <input type="number" id="Age" name="Age" required style="border-radius: 10px;">
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" name="Age" required style="border-radius: 10px;">
+                <label for="password">ReEnter password:</label>
+                <input type="password" id="password" name="Age" required style="border-radius: 10px;">
+                <button type="submit" style="border-radius: 10px;">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+
+
+
